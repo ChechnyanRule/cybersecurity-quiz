@@ -1,1 +1,24 @@
-﻿# Cybersecurity Quiz App`n`nThis is a React-based quiz app focused on cybersecurity knowledge. It includes ranking logic, animated feedback, and local storage of scores.`n`n## Features`n- Adjustable number of questions (20, 50, 100, 150, up to 200)`n- Timer and performance-based rank`n- Confetti animation on final result`n- Built with React + TypeScript + Material UI`n`n## Demo`n[Play the live version](https://torpedobyte.solutions/cybersecurity-quiz)`n`n## Install locally`n```bash`nnpm install`nnpm start`n```
+# Cybersecurity Quiz App
+
+This is a React-based quiz focused on cybersecurity concepts.
+
+## Features
+- Adjustable number of questions (20 to 200)
+- Timer and scoring with animated feedback
+- Performance-based ranking system
+- Confetti animation on result screen
+- Local storage of results
+- Built with React, TypeScript, and Material UI
+
+## Demo
+[Play the live version](https://torpedobyte.solutions/cybersecurity-quiz)
+
+## Getting Started
+```bash
+npm install
+npm run dev
+```
+
+## Author
+Florian Chague — [torpedobyte.solutions](https://torpedobyte.solutions)
+
