@@ -1,1 +1,5 @@
-﻿@`nnode_modules`nbuild`ndist`n.env`n.DS_Store
+node_modules/
+dist/
+build/
+.env
+.DS_Store
