@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/globals.d.ts","./src/main.tsx","./src/components/landingpage.tsx","./src/components/quizpage.tsx","./src/components/resultpage.tsx","./src/data/questions.ts","./src/styles/theme.ts","./vite-env.d.ts"],"version":"5.7.3"}

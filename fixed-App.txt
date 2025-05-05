@@ -1,0 +1,43 @@
+import { Box, Button, Container, CssBaseline, ThemeProvider, Typography } from "@mui/material";
+import { motion } from "framer-motion";
+import { useState } from "react";
+import { theme } from "./styles/theme";
+
+function App() {
+  const [quiz, setQuiz] = useState("");
+
+  const fetchQuiz = async () => {
+    // 🚨 Douille : remplace API par une pool plus tard
+    const res = await fetch("/dax-quizz/api/quiz");
+    const data = await res.json();
+    setQuiz(data.choices?.[0]?.message?.content ?? "Erreur");
+  };
+
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Container sx={{ py: 8 }}>
+        <motion.div
+          initial={{ opacity: 0, y: -30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          <Typography variant="h3" gutterBottom>
+            🎯 DAX Quizz
+          </Typography>
+          <Typography variant="body1" gutterBottom>
+            Les questions sont générées par une intelligence artificielle (ou presque 😉).
+          </Typography>
+          <Button variant="contained" onClick={fetchQuiz} sx={{ mt: 4 }}>
+            Générer un quizz
+          </Button>
+          <Box mt={4} whiteSpace="pre-line">
+            {quiz}
+          </Box>
+        </motion.div>
+      </Container>
+    </ThemeProvider>
+  );
+}
+
+export default App;

@@ -1,0 +1,39 @@
+/* index.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f1218;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiPaper-root {
+  background-color: #1c1c1c !important;
+  color: white !important;
+}
+
+.MuiButton-contained {
+  background-color: #1976d2 !important;
+  color: white;
+}
+
+.MuiButton-contained:hover {
+  background-color: #1565c0 !important;
+}
+
+.MuiLinearProgress-root {
+  border-radius: 5px;
+  overflow: hidden;
+}
