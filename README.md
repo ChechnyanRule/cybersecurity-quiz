@@ -22,6 +22,7 @@ npm run dev
 ## Author
 Florian Chague — [torpedobyte.solutions](https://torpedobyte.solutions)
 
-![image](https://github.com/user-attachments/assets/99c5d0ad-b4a6-4457-aef2-950856531dfb)
+![image](https://github.com/user-attachments/assets/99c5d0ad-b4a6-4457-aef2-950856531dfb) ![image](https://github.com/user-attachments/assets/3aa7a492-e741-4faa-8e83-4690d1e25a84)
+
 
 
